@@ -1,10 +1,14 @@
-#格式化P28分区
+#‌创建挂载点目录
 
 mkdir /mnt/mmcbkl0p28
 
-#手动挂载P28
+#挂载设备
 
 mount /dev/mmcbkl0p28 /mnt/mmcbkl0p28
+
+#‌切换工作目录
+
+cd /overlay
 
 #拷贝overlay分区文件到P28分区
 
