@@ -28,7 +28,7 @@ sed -i s#/mnt/mmcbkl0p28#/overlay# /etc/config/fstab
 
 #把原来的overlay挂载取消
 
-sed -i '12s/1/0/g' /etc/config/fstab
+sed -i '13s/1/0/g' /etc/config/fstab
 
 #最后的最后就是输入reboot后重启就可以
 
